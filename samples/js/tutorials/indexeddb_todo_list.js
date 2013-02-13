@@ -115,7 +115,7 @@ function renderTodo(row) {
   a.textContent = " [Delete]";
   li.appendChild(t);
   li.appendChild(a);
-  todos.appendChild(li)
+  todos.appendChild(li);
 }
 
 function addTodo() {
